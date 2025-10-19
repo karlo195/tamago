@@ -1,5 +1,5 @@
 // ARM processor support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -11,7 +11,7 @@ package arm
 import (
 	"unsafe"
 
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // ARM exception vector offsets

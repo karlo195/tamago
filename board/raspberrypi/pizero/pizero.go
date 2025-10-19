@@ -1,5 +1,5 @@
 // Raspberry Pi Zero support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the pizero package authors
 //
@@ -11,14 +11,14 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package pizero
 
 import (
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/board/raspberrypi"
-	"github.com/usbarmory/tamago/soc/bcm2835"
+	"github.com/karlo195/tamago/board/raspberrypi"
+	"github.com/karlo195/tamago/soc/bcm2835"
 )
 
 const peripheralBase = 0x20000000

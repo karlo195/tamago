@@ -1,5 +1,5 @@
 // ARM Generic Interrupt Controller (GIC) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // IP: ARM Generic Interrupt Controller version 2.0
 //
@@ -15,11 +15,11 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package gic
 
 import (
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // GIC registers

@@ -1,5 +1,5 @@
 // Linux user space support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -10,7 +10,7 @@
 // space.
 //
 // This package is only meant to be used with `GOOS=tamago` as supported by the
-// TamaGo framework for bare metal Go, see https://github.com/usbarmory/tamago.
+// TamaGo framework for bare metal Go, see https://github.com/karlo195/tamago.
 package linux_user
 
 import (

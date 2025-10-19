@@ -1,5 +1,5 @@
 // NXP Data Co-Processor (DCP) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,8 +12,8 @@ import (
 	"crypto/aes"
 	"errors"
 
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/dma"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/dma"
 )
 
 // SetCipherDefaults initializes default values for a DCP work packet that

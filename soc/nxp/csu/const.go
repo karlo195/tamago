@@ -1,5 +1,5 @@
 // NXP i.MX Central Security Unit (CSU) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //

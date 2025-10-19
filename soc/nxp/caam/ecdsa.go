@@ -1,5 +1,5 @@
 // NXP Cryptographic Acceleration and Assurance Module (CAAM) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/dma"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/dma"
 )
 
 // p451, Table 8-112, IMX7DSSRM

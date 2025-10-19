@@ -1,5 +1,5 @@
 // USB device mode support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // DeviceMode sets the USB controller in device mode.

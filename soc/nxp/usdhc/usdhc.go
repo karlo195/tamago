@@ -1,5 +1,5 @@
 // NXP Ultra Secured Digital Host Controller (uSDHC) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // IP: https://www.mobiveil.com/esdhc/
 //
@@ -50,7 +50,7 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package usdhc
 
 import (
@@ -59,9 +59,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // USDHC registers (p4012, 58.8 uSDHC Memory Map/Register Definition, IMX6ULLRM).

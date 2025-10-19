@@ -1,5 +1,5 @@
 // NXP USBOH3USBO2 / USBPHY driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -14,13 +14,13 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package usb
 
 import (
 	"sync"
 
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // USB registers

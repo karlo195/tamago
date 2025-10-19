@@ -1,5 +1,5 @@
 // NXP i.MX6UL initialization
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,14 +12,14 @@ import (
 	"runtime"
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/arm"
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
-	"github.com/usbarmory/tamago/soc/nxp/bee"
-	"github.com/usbarmory/tamago/soc/nxp/dcp"
-	"github.com/usbarmory/tamago/soc/nxp/enet"
-	"github.com/usbarmory/tamago/soc/nxp/usb"
+	"github.com/karlo195/tamago/arm"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
+	"github.com/karlo195/tamago/soc/nxp/bee"
+	"github.com/karlo195/tamago/soc/nxp/dcp"
+	"github.com/karlo195/tamago/soc/nxp/enet"
+	"github.com/karlo195/tamago/soc/nxp/usb"
 )
 
 // i.MX processor families

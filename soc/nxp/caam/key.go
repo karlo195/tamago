@@ -1,5 +1,5 @@
 // NXP Cryptographic Acceleration and Assurance Module (CAAM) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,7 +13,7 @@ import (
 	"crypto/sha256"
 	"errors"
 
-	"github.com/usbarmory/tamago/dma"
+	"github.com/karlo195/tamago/dma"
 )
 
 // mkv requests the CAAM Master Key Verification Blob, the resulting

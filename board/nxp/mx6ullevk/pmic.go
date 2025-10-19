@@ -1,5 +1,5 @@
 // MCIMX6ULL-EVK support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,9 +9,9 @@
 package mx6ullevk
 
 import (
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/soc/nxp/imx6ul"
-	"github.com/usbarmory/tamago/soc/nxp/iomuxc"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/soc/nxp/imx6ul"
+	"github.com/karlo195/tamago/soc/nxp/iomuxc"
 )
 
 // On the MCIMX6ULL-EVK the SoC LCD_RESET output signal, which is tied to the

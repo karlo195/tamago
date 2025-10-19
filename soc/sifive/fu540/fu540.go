@@ -1,5 +1,5 @@
 // SiFive FU540 configuration and support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -16,15 +16,15 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=riscv64` as
 // supported by the TamaGo framework for bare metal Go on RISC-V SoCs, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package fu540
 
 import (
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/riscv64"
-	"github.com/usbarmory/tamago/soc/sifive/clint"
-	"github.com/usbarmory/tamago/soc/sifive/uart"
+	"github.com/karlo195/tamago/riscv64"
+	"github.com/karlo195/tamago/soc/sifive/clint"
+	"github.com/karlo195/tamago/soc/sifive/uart"
 )
 
 // Peripheral registers

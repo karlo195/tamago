@@ -1,5 +1,5 @@
 // NXP Cryptographic Acceleration and Assurance Module (CAAM) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,7 +9,7 @@
 package caam
 
 import (
-	"github.com/usbarmory/tamago/dma"
+	"github.com/karlo195/tamago/dma"
 )
 
 func (hw *CAAM) hash(buf []byte, mode int, size int, init bool, term bool) (sum []byte, err error) {

@@ -1,5 +1,5 @@
 // MCIMX6ULL-EVK support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -11,13 +11,13 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package mx6ullevk
 
 import (
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/soc/nxp/imx6ul"
+	"github.com/karlo195/tamago/soc/nxp/imx6ul"
 )
 
 // Peripheral instances

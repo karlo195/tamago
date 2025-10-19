@@ -1,5 +1,5 @@
 // Raspberry Pi 2 LED support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the pi2 package authors
 //
@@ -11,7 +11,7 @@ package pi2
 import (
 	"errors"
 
-	"github.com/usbarmory/tamago/soc/bcm2835"
+	"github.com/karlo195/tamago/soc/bcm2835"
 )
 
 // LED GPIO lines

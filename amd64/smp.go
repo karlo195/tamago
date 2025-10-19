@@ -1,5 +1,5 @@
 // x86-64 processor support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -15,9 +15,9 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/usbarmory/tamago/amd64/lapic"
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/amd64/lapic"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 const (

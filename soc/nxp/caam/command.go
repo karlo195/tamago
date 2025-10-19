@@ -1,5 +1,5 @@
 // NXP Cryptographic Acceleration and Assurance Module (CAAM) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/usbarmory/tamago/bits"
+	"github.com/karlo195/tamago/bits"
 )
 
 // p266, 6.6.7.3 Command types, IMX6ULSRM

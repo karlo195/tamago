@@ -1,5 +1,5 @@
 // Raspberry Pi support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the pi package authors
 //
@@ -13,7 +13,7 @@ package pi
 import (
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/soc/bcm2835"
+	"github.com/karlo195/tamago/soc/bcm2835"
 )
 
 //go:linkname printk runtime.printk

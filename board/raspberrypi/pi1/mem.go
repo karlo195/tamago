@@ -1,5 +1,5 @@
 // Raspberry Pi 1 support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the pi1 package authors
 //

@@ -1,5 +1,5 @@
 // ARM processor support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,7 +13,7 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package arm
 
 import (
@@ -79,7 +79,7 @@ func (cpu *CPU) DefaultIdleGovernor(pollUntil int64) {
 // Init performs initialization of an ARM core instance, the argument must be a
 // pointer to a 64 kB memory area which will be reserved for storing the
 // exception vector table, L1/L2 page tables and the exception stack
-// (see https://github.com/usbarmory/tamago/wiki/Internals#memory-layout).
+// (see https://github.com/karlo195/tamago/wiki/Internals#memory-layout).
 func (cpu *CPU) Init(vbar uint32) {
 	runtime.Exit = exit
 	runtime.Idle = cpu.DefaultIdleGovernor

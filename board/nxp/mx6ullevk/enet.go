@@ -1,5 +1,5 @@
 // MCIMX6ULL-EVK support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -11,9 +11,9 @@ package mx6ullevk
 import (
 	"errors"
 
-	"github.com/usbarmory/tamago/soc/nxp/enet"
-	"github.com/usbarmory/tamago/soc/nxp/imx6ul"
-	"github.com/usbarmory/tamago/soc/nxp/iomuxc"
+	"github.com/karlo195/tamago/soc/nxp/enet"
+	"github.com/karlo195/tamago/soc/nxp/imx6ul"
+	"github.com/karlo195/tamago/soc/nxp/iomuxc"
 )
 
 // Ethernet PHY configuration constants.

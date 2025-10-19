@@ -1,5 +1,5 @@
 // MCIMX6ULL-EVK support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,7 +9,7 @@
 package mx6ullevk
 
 import (
-	"github.com/usbarmory/tamago/soc/nxp/iomuxc"
+	"github.com/karlo195/tamago/soc/nxp/iomuxc"
 )
 
 // SD1 is the base board full size SD instance

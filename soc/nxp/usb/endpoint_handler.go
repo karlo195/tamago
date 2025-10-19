@@ -1,5 +1,5 @@
 // USB device mode support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // Endpoint represents a USB 2.0 endpoint.

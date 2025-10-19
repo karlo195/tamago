@@ -1,5 +1,5 @@
 // USB armory Mk II support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,9 +9,9 @@
 package mk2
 
 import (
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/soc/nxp/imx6ul"
-	"github.com/usbarmory/tamago/soc/nxp/iomuxc"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/soc/nxp/imx6ul"
+	"github.com/karlo195/tamago/soc/nxp/iomuxc"
 )
 
 // On the USB armory Mk II the PMIC watchdog input (WDI) is connected to the

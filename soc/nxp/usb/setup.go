@@ -1,5 +1,5 @@
 // USB device mode support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,7 +12,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // Format of Setup Data (p276, Table 9-2, USB2.0)

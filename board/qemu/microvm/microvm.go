@@ -1,5 +1,5 @@
 // QEMU microvm support for tamago/amd64
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -11,19 +11,19 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=amd64` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package microvm
 
 import (
 	"runtime"
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/amd64"
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/kvm/pvclock"
-	"github.com/usbarmory/tamago/soc/intel/ioapic"
-	"github.com/usbarmory/tamago/soc/intel/rtc"
-	"github.com/usbarmory/tamago/soc/intel/uart"
+	"github.com/karlo195/tamago/amd64"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/kvm/pvclock"
+	"github.com/karlo195/tamago/soc/intel/ioapic"
+	"github.com/karlo195/tamago/soc/intel/rtc"
+	"github.com/karlo195/tamago/soc/intel/uart"
 )
 
 const (

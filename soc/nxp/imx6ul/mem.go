@@ -1,5 +1,5 @@
 // NXP i.MX6UL initialization
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //

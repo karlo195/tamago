@@ -1,5 +1,5 @@
 // NXP Cryptographic Acceleration and Assurance Module (CAAM) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,14 +13,14 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package caam
 
 import (
 	"sync"
 
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // CAAM registers

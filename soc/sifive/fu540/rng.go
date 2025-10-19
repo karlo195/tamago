@@ -1,5 +1,5 @@
 // SiFive FU540 RNG initialization
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,7 +13,7 @@ import (
 	"time"
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/internal/rng"
+	"github.com/karlo195/tamago/internal/rng"
 )
 
 //go:linkname initRNG runtime.initRNG

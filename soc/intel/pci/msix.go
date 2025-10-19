@@ -1,5 +1,5 @@
 // Intel Peripheral Component Interconnect (PCI) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,7 +12,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/usbarmory/tamago/dma"
+	"github.com/karlo195/tamago/dma"
 )
 
 const msixEnable = 31

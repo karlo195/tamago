@@ -24,11 +24,11 @@
 // packages (such as the ones provided by [tamago]) relevant to the target
 // environment.
 //
-// [tamago]: https://github.com/usbarmory/tamago
-// [usbarmory]: https://github.com/usbarmory/tamago/tree/master/board/usbarmory
+// [tamago]: https://github.com/karlo195/tamago
+// [usbarmory]: https://github.com/karlo195/tamago/tree/master/board/usbarmory
 // [uefi]: https://github.com/usbarmory/go-boot/tree/main/uefi
-// [microvm]: https://github.com/usbarmory/tamago/tree/master/board/firecracker/microvm
-// [linux]: https://github.com/usbarmory/tamago/tree/master/user/linux
+// [microvm]: https://github.com/karlo195/tamago/tree/master/board/firecracker/microvm
+// [linux]: https://github.com/karlo195/tamago/tree/master/user/linux
 // [applet]: https://github.com/usbarmory/GoTEE/tree/master/applet
 package doc
 
@@ -40,7 +40,7 @@ package doc
 //
 // For an example see package [arm CPU initialization].
 //
-// [arm CPU initialization]: https://github.com/usbarmory/tamago/blob/master/arm/init.s
+// [arm CPU initialization]: https://github.com/karlo195/tamago/blob/master/arm/init.s
 func cpuinit()
 
 // Hwinit0, which must be linked as `runtime.hwinit0`¹, takes care of the lower
@@ -54,7 +54,7 @@ func cpuinit()
 //
 //	¹ //go:linkname Hwinit0 runtime.hwinit0
 //
-// [arm initialization]: https://github.com/usbarmory/tamago/blob/master/arm/init.go
+// [arm initialization]: https://github.com/karlo195/tamago/blob/master/arm/init.go
 //
 //go:linkname Hwinit0 runtime.hwinit0
 func Hwinit0()
@@ -66,7 +66,7 @@ func Hwinit0()
 //
 //	¹ //go:linkname Hwinit1 runtime.hwinit1
 //
-// [microvm platform initialization]: https://github.com/usbarmory/tamago/blob/master/board/firecracker/microvm/microvm.go
+// [microvm platform initialization]: https://github.com/karlo195/tamago/blob/master/board/firecracker/microvm/microvm.go
 //
 //go:linkname Hwinit1 runtime.hwinit1
 func Hwinit1()
@@ -82,7 +82,7 @@ func Hwinit1()
 //
 //	¹ //go:linkname Printk runtime.printk
 //
-// [usbarmory console handling]: https://github.com/usbarmory/tamago/blob/master/board/usbarmory/mk2/console.go
+// [usbarmory console handling]: https://github.com/karlo195/tamago/blob/master/board/usbarmory/mk2/console.go
 //
 //go:linkname Printk runtime.printk
 func Printk(c byte)
@@ -94,7 +94,7 @@ func Printk(c byte)
 //
 //	¹ //go:linkname InitRNG runtime.initRNG
 //
-// [amd64 randon number generation]: https://github.com/usbarmory/tamago/blob/master/amd64/rng.go
+// [amd64 randon number generation]: https://github.com/karlo195/tamago/blob/master/amd64/rng.go
 //
 //go:linkname InitRNG runtime.initRNG
 func InitRNG()
@@ -106,7 +106,7 @@ func InitRNG()
 //
 //	¹ //go:linkname GetRandomData runtime.getRandomData
 //
-// [amd64 random number generation]: https://github.com/usbarmory/tamago/blob/master/amd64/rng.go
+// [amd64 random number generation]: https://github.com/karlo195/tamago/blob/master/amd64/rng.go
 //
 //go:linkname GetRandomData runtime.getRandomData
 func GetRandomData(b []byte)
@@ -122,7 +122,7 @@ func GetRandomData(b []byte)
 //
 //	¹ //go:linkname Nanotime runtime.nanotime1
 //
-// [fu540 initialization]: https://github.com/usbarmory/tamago/blob/master/soc/sifive/fu540/init.go
+// [fu540 initialization]: https://github.com/karlo195/tamago/blob/master/soc/sifive/fu540/init.go
 //
 //go:linkname Nanotime runtime.nanotime1
 func Nanotime() int64
@@ -135,7 +135,7 @@ func Nanotime() int64
 //
 //	¹ //go:linkname RamStart runtime.ramStart
 //
-// [amd64 memory layout]: https://github.com/usbarmory/tamago/blob/master/amd64/mem.go
+// [amd64 memory layout]: https://github.com/karlo195/tamago/blob/master/amd64/mem.go
 //
 //go:linkname RamStart runtime.ramStart
 var RamStart uint
@@ -148,7 +148,7 @@ var RamStart uint
 //
 //	¹ //go:linkname RamSize runtime.ramSize
 //
-// [microvm memory layout]: https://github.com/usbarmory/tamago/blob/master/board/firecracker/microvm/mem.go
+// [microvm memory layout]: https://github.com/karlo195/tamago/blob/master/board/firecracker/microvm/mem.go
 //
 //go:linkname RamSize runtime.ramSize
 var RamSize uint
@@ -161,7 +161,7 @@ var RamSize uint
 //
 //	¹ //go:linkname RamStackOffset runtime.ramStackOffset
 //
-// [amd64]: https://github.com/usbarmory/tamago/blob/master/amd64/amd64.go
+// [amd64]: https://github.com/karlo195/tamago/blob/master/amd64/amd64.go
 //
 //go:linkname ramStackOffset runtime.ramStackOffset
 var RamStackOffset uint
@@ -172,7 +172,7 @@ var RamStackOffset uint
 //
 // For an example see package [linux].
 //
-// [linux]: https://github.com/usbarmory/tamago/blob/master/user/linux/runtime.go
+// [linux]: https://github.com/karlo195/tamago/blob/master/user/linux/runtime.go
 var Bloc uintptr
 
 // Exit describes the optional [runtime.Exit] function, which can be set to
@@ -180,7 +180,7 @@ var Bloc uintptr
 //
 // For an example see package [microvm].
 //
-// [microvm]: https://github.com/usbarmory/tamago/blob/master/board/qemu/microvm/microvm.go
+// [microvm]: https://github.com/karlo195/tamago/blob/master/board/qemu/microvm/microvm.go
 var Exit func(int32)
 
 // Idle describes the [runtime.Idle] function, which can be set to implement CPU
@@ -189,8 +189,8 @@ var Exit func(int32)
 // For a basic example see package [amd64], a more advanced example involving a
 // physical countdown timer is implemented in the [tamago example].
 //
-// [amd64]: https://github.com/usbarmory/tamago/blob/master/amd64/amd64.go
-// [tamago example]: https://github.com/usbarmory/tamago-example/blob/master/network/imx.go
+// [amd64]: https://github.com/karlo195/tamago/blob/master/amd64/amd64.go
+// [tamago example]: https://github.com/karlo195/tamago-example/blob/master/network/imx.go
 var Idle func(until int64)
 
 // ProcID describes the optional [runtime.ProcID] function, which can be set to
@@ -215,5 +215,5 @@ var SocketFunc func(ctx context.Context, net string, family, sotype int, laddr, 
 //
 // For an example see package [amd64 SMP initialization].
 //
-// [amd64 SMP initialization]: https://github.com/usbarmory/tamago/blob/master/amd64/smp.go
+// [amd64 SMP initialization]: https://github.com/karlo195/tamago/blob/master/amd64/smp.go
 var Task func(sp, mp, gp, fn unsafe.Pointer)

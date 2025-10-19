@@ -1,5 +1,5 @@
 // First-fit memory allocator for DMA buffers
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -11,7 +11,7 @@
 // Go pointers for DMA purposes.
 //
 // This package is only meant to be used with `GOOS=tamago` as supported by the
-// TamaGo framework for bare metal Go, see https://github.com/usbarmory/tamago.
+// TamaGo framework for bare metal Go, see https://github.com/karlo195/tamago.
 package dma
 
 import (

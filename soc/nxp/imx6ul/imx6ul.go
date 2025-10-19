@@ -1,5 +1,5 @@
 // NXP i.MX6UL configuration and support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -22,33 +22,33 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package imx6ul
 
 import (
 	"encoding/binary"
 
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 
-	"github.com/usbarmory/tamago/arm"
-	"github.com/usbarmory/tamago/arm/gic"
-	"github.com/usbarmory/tamago/arm/tzc380"
+	"github.com/karlo195/tamago/arm"
+	"github.com/karlo195/tamago/arm/gic"
+	"github.com/karlo195/tamago/arm/tzc380"
 
-	"github.com/usbarmory/tamago/soc/nxp/bee"
-	"github.com/usbarmory/tamago/soc/nxp/caam"
-	"github.com/usbarmory/tamago/soc/nxp/csu"
-	"github.com/usbarmory/tamago/soc/nxp/dcp"
-	"github.com/usbarmory/tamago/soc/nxp/enet"
-	"github.com/usbarmory/tamago/soc/nxp/gpio"
-	"github.com/usbarmory/tamago/soc/nxp/i2c"
-	"github.com/usbarmory/tamago/soc/nxp/ocotp"
-	"github.com/usbarmory/tamago/soc/nxp/rngb"
-	"github.com/usbarmory/tamago/soc/nxp/snvs"
-	"github.com/usbarmory/tamago/soc/nxp/tempmon"
-	"github.com/usbarmory/tamago/soc/nxp/uart"
-	"github.com/usbarmory/tamago/soc/nxp/usb"
-	"github.com/usbarmory/tamago/soc/nxp/usdhc"
-	"github.com/usbarmory/tamago/soc/nxp/wdog"
+	"github.com/karlo195/tamago/soc/nxp/bee"
+	"github.com/karlo195/tamago/soc/nxp/caam"
+	"github.com/karlo195/tamago/soc/nxp/csu"
+	"github.com/karlo195/tamago/soc/nxp/dcp"
+	"github.com/karlo195/tamago/soc/nxp/enet"
+	"github.com/karlo195/tamago/soc/nxp/gpio"
+	"github.com/karlo195/tamago/soc/nxp/i2c"
+	"github.com/karlo195/tamago/soc/nxp/ocotp"
+	"github.com/karlo195/tamago/soc/nxp/rngb"
+	"github.com/karlo195/tamago/soc/nxp/snvs"
+	"github.com/karlo195/tamago/soc/nxp/tempmon"
+	"github.com/karlo195/tamago/soc/nxp/uart"
+	"github.com/karlo195/tamago/soc/nxp/usb"
+	"github.com/karlo195/tamago/soc/nxp/usdhc"
+	"github.com/karlo195/tamago/soc/nxp/wdog"
 )
 
 // Interrupts

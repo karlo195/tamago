@@ -1,5 +1,5 @@
 // MCIMX6ULL-EVK support for tamago/arm
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,7 +13,7 @@ package mx6ullevk
 import (
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/soc/nxp/imx6ul"
+	"github.com/karlo195/tamago/soc/nxp/imx6ul"
 )
 
 // On the MCIMX6ULL-EVK the serial console is UART1, therefore standard

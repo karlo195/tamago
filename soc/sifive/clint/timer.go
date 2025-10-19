@@ -1,5 +1,5 @@
 // SiFive Core-Local Interruptor (CLINT) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright 2022 The Go Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style

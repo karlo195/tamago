@@ -1,5 +1,5 @@
 // BCM2835 SoC DMA support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the bcm2835 package authors
 //
@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 //

@@ -1,5 +1,5 @@
 // QEMU microvm support for tamago/amd64
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //

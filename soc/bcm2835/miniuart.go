@@ -1,5 +1,5 @@
 // BCM2835 mini-UART driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the bcm2835 package authors
 //
@@ -14,8 +14,8 @@
 package bcm2835
 
 import (
-	"github.com/usbarmory/tamago/arm"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/arm"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 const (

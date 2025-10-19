@@ -1,5 +1,5 @@
 // NXP 10/100-Mbps Ethernet MAC (ENET)
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,8 +9,8 @@
 package enet
 
 import (
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 const (

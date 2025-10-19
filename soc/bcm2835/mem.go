@@ -1,5 +1,5 @@
 // BCM2835 SoC support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the bcm2835 package authors
 //

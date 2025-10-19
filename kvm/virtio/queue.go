@@ -1,5 +1,5 @@
 // VirtIO Virtual Queue support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,7 +13,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"github.com/usbarmory/tamago/dma"
+	"github.com/karlo195/tamago/dma"
 )
 
 // Descriptor Flags

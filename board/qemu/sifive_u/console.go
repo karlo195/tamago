@@ -1,5 +1,5 @@
 // QEMU sifive_u support for tamago/riscv64
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,7 +13,7 @@ package sifive_u
 import (
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/soc/sifive/fu540"
+	"github.com/karlo195/tamago/soc/sifive/fu540"
 )
 
 //go:linkname printk runtime.printk

@@ -1,5 +1,5 @@
 // NXP i.MX6UL ARM debug signals
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,7 +9,7 @@
 package imx6ul
 
 import (
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 const (

@@ -1,5 +1,5 @@
 // Intel Peripheral Component Interconnect (PCI) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //

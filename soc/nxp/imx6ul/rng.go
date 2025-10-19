@@ -1,5 +1,5 @@
 // NXP i.MX6UL RNG initialization
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,10 +13,10 @@ import (
 	"time"
 	_ "unsafe"
 
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/rng"
-	"github.com/usbarmory/tamago/soc/nxp/caam"
-	"github.com/usbarmory/tamago/soc/nxp/rngb"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/rng"
+	"github.com/karlo195/tamago/soc/nxp/caam"
+	"github.com/karlo195/tamago/soc/nxp/rngb"
 )
 
 //go:linkname initRNG runtime.initRNG

@@ -1,5 +1,5 @@
 // NXP Bus Encryption Engine (BEE) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,7 +12,7 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=arm` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package bee
 
 import (
@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
-	"github.com/usbarmory/tamago/soc/nxp/snvs"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
+	"github.com/karlo195/tamago/soc/nxp/snvs"
 )
 
 // BEE registers

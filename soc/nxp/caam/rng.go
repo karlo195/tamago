@@ -1,5 +1,5 @@
 // NXP Cryptographic Acceleration and Assurance Module (CAAM) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -9,9 +9,9 @@
 package caam
 
 import (
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/internal/reg"
-	"github.com/usbarmory/tamago/internal/rng"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/internal/reg"
+	"github.com/karlo195/tamago/internal/rng"
 )
 
 func (hw *CAAM) initRNG() {

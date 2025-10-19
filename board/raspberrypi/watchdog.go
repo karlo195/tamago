@@ -1,5 +1,5 @@
 // Raspberry Pi watchdog timer support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) the pi package authors
 //
@@ -11,8 +11,8 @@ package pi
 import (
 	"time"
 
-	"github.com/usbarmory/tamago/internal/reg"
-	"github.com/usbarmory/tamago/soc/bcm2835"
+	"github.com/karlo195/tamago/internal/reg"
+	"github.com/karlo195/tamago/soc/bcm2835"
 )
 
 // Power Management, Reset controller and Watchdog registers

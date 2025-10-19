@@ -1,5 +1,5 @@
 // RISC-V processor support
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -14,7 +14,7 @@
 //
 // This package is only meant to be used with `GOOS=tamago GOARCH=riscv64` as
 // supported by the TamaGo framework for bare metal Go, see
-// https://github.com/usbarmory/tamago.
+// https://github.com/karlo195/tamago.
 package riscv64
 
 import (

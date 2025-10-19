@@ -1,5 +1,5 @@
 // NXP USBOH3USBO2 / USBPHY driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -13,9 +13,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // Endpoint constants

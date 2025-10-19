@@ -1,5 +1,5 @@
 // VirtIO over PCI driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -12,10 +12,10 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/usbarmory/tamago/amd64"
-	"github.com/usbarmory/tamago/dma"
-	"github.com/usbarmory/tamago/internal/reg"
-	"github.com/usbarmory/tamago/soc/intel/pci"
+	"github.com/karlo195/tamago/amd64"
+	"github.com/karlo195/tamago/dma"
+	"github.com/karlo195/tamago/internal/reg"
+	"github.com/karlo195/tamago/soc/intel/pci"
 )
 
 // VirtIO Common Configuration offsets

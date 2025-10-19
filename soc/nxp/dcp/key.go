@@ -1,5 +1,5 @@
 // NXP Data Co-Processor (DCP) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -14,8 +14,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // DeriveKey derives a hardware unique key in a manner equivalent to PKCS#11

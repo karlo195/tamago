@@ -1,5 +1,5 @@
 // NXP Ultra Secured Digital Host Controller (uSDHC) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // IP: https://www.mobiveil.com/esdhc/
 //
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // SD registers

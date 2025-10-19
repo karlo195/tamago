@@ -1,5 +1,5 @@
 // NXP Ultra Secured Digital Host Controller (uSDHC) driver
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // IP: https://www.mobiveil.com/esdhc/
 //

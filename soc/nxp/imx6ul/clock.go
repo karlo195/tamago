@@ -1,5 +1,5 @@
 // NXP i.MX6UL clock control
-// https://github.com/usbarmory/tamago
+// https://github.com/karlo195/tamago
 //
 // Copyright (c) The TamaGo Authors. All Rights Reserved.
 //
@@ -11,9 +11,9 @@ package imx6ul
 import (
 	"errors"
 
-	"github.com/usbarmory/tamago/arm"
-	"github.com/usbarmory/tamago/bits"
-	"github.com/usbarmory/tamago/internal/reg"
+	"github.com/karlo195/tamago/arm"
+	"github.com/karlo195/tamago/bits"
+	"github.com/karlo195/tamago/internal/reg"
 )
 
 // Clock registers
